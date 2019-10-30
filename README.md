@@ -17,3 +17,8 @@ node.js作为服务端，调用shell脚本进行iOS包重签名。
 ### 使用注意点：  
 - 修改resign.sh文件里，证书 和 .moblieprovision 名称为自己公司的；    
 - 替换nodejs/ipas/文件下 .moblieprovision  和 entitlement.plist为自己公司的；  
+- node.js默认侦听8000端口，自己可以改成其它的；    
+
+
+### 示意图：  
+ ![avatar](https://github.com/qiyer/iOSResignWebtool/blob/master/demo.png)   
